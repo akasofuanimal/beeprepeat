@@ -177,4 +177,11 @@
         // timeToCountDownをtimerに反映させたいのでupDatetimerを使う
         updateTimer(timeToCountDown);
     });
+
+
+ 　　//ポーズを押した時の処理
+    pause.addEventListener('click', function () {
+
+        music.pause();
+    });
 })();
