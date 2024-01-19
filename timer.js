@@ -182,6 +182,7 @@
  　　//ポーズを押した時の処理
     pause.addEventListener('click', function () {
 
+        music.loop = false;
         music.pause();
     });
 })();
