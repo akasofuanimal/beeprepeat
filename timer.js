@@ -2,10 +2,17 @@
 (function () {
  
     var timer = document.getElementById('timer');
+    timer.style.fontSize = "100px"
     var min = document.getElementById('min');
+    min.style.fontSize = "100px"
     var sec = document.getElementById('sec');
+    sec.style.fontSize = "100px"
     var reset = document.getElementById('reset');
+    reset.style.fontSize = "100px"
     var start = document.getElementById('start');
+    start.style.fontSize = "100px"
+    var pause = document.getElementById('start');
+    pause.style.fontSize = "100px"
     const music = new Audio('beep.mp3');
 
     // スタートタイムを押した時の時間を入れる変数
