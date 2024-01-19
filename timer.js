@@ -77,6 +77,7 @@
                 // );
                 music.currentTime = 0;
                 music.play();
+                music.loop = true;
                 window.focus();
                 start.textContent = 'スタート';
                 clearTimeout(timerId);
