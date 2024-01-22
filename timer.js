@@ -11,7 +11,7 @@
     reset.style.fontSize = "100px"
     var start = document.getElementById('start');
     start.style.fontSize = "100px"
-    var pause = document.getElementById('start');
+    var pause = document.getElementById('pause');
     pause.style.fontSize = "100px"
     const music = new Audio('beep.mp3');
 
