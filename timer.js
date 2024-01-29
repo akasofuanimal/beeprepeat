@@ -2,18 +2,18 @@
 (function () {
  
     var timer = document.getElementById('timer');
-    timer.style.fontSize = "100px"
+    timer.style.fontSize = "60px"
     var min = document.getElementById('min');
-    min.style.fontSize = "100px"
+    min.style.fontSize = "60px"
     var sec = document.getElementById('sec');
-    sec.style.fontSize = "100px"
+    sec.style.fontSize = "60px"
     var reset = document.getElementById('reset');
-    reset.style.fontSize = "100px"
+    reset.style.fontSize = "60px"
     var start = document.getElementById('start');
-    start.style.fontSize = "100px"
+    start.style.fontSize = "60px"
     var pause = document.getElementById('pause');
-    pause.style.fontSize = "100px"
-    const music = new Audio('beep.mp3');
+    pause.style.fontSize = "60px"
+    const music = new Audio('button3.mp3');
 
     // スタートタイムを押した時の時間を入れる変数
     var startTime;
